@@ -1,0 +1,27 @@
+{
+  "version": "0.1",
+  "name": "Secure Shell Remote Management",
+  "description": "An SSH addon optimised for remote management via techniques like direct ssh commands, git or ansible.",
+  "slug": "ssh_remote",
+  "startup": "before",
+  "init": false,
+  "advanced": true,
+  "startup": "services",
+  "ingress": true,
+  "boot": "auto",
+  "hassio_api": true,
+  "hassio_role": "manager",
+  "audio": true,
+  "auto_uart": true,
+  "ports": {
+    "22/tcp": null
+  },
+  "ingress": true,
+  "map": ["config:rw", "ssl:rw", "addons:rw", "share:rw", "backup:rw", "media:rw"],
+  "options": {
+    "authorized_keys": []
+  },
+  "schema": {
+    "authorized_keys": ["str"]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "name": "Hass.IO example add-on repository",
-  "url": "https://home-assistant.io/",
-  "maintainer": "HomeAssistant <info@home-assistant.io>"
+  "name": "Home Assistant Addons from Adam",
+  "url": "https://github.com/adams-home-assistant/addons",
+  "maintainer": "Adam Griffiths"
 }
