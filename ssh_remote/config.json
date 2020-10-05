@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.3",
   "name": "Secure Shell Remote Management",
   "description": "An SSH addon optimised for remote management via techniques like direct ssh commands, git or ansible.",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
